@@ -42,7 +42,7 @@ module Opentsdb
     private
 
     def query_url
-      "http://#{host}:#{port}/api/query"
+      "#{host}:#{port}/api/query"
     end
   end
 end
